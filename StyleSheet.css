@@ -1,57 +1,60 @@
-#header {
-    position: absolute;
-    left: 15%;
-    top: 3%;
-    width: 70%;
-    height: 150px;
+body {
+    background-color: #89C7A5;
 }
 
-#hPic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: green;
-    z-index: 2;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-
-#hName {
-    height: 100px;
-    font-size: 100px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    border-bottom: 5px solid black;
-    padding-left: 127px;
-    margin-left: 25px;
-    padding-right: 100px;
-}
-
-#hNav {
-    height: 50px;
-    font-size: 30px;
-    position: absolute;
-    left: 152px;
-    top: 110px;
-}
-
-#content {
-    position: absolute;
-    left: 15%;
-    top: 3%;
-    margin-left: 75px;
-    margin-top: 150px;
-    height: 70%;
-    width: 60%;
-}
-
-.contentBox {
-    border-left: 3px solid black;
+header {
     width: 100%;
-    height: 100%;
-    padding-left: 15px;
-    padding-top: 5px;
-    text-align: center;
+    background-color: #175935;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 130px;
+    border-bottom: #124529 2px solid;
+}
+
+nav {
+    width: 100%;
+    background-color: #298050;
+    position: absolute;
+    top: 132px;
+    left: 0px;
+    height: 70px;
+}
+
+nav.stick {
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+}
+
+section {
+}
+
+#container_H {
+    color: white;
+    width: 700px;
+    margin: auto;
+    font-size: 80px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+#container_N {
+    color: white;
+    width: 700px;
+    margin: auto;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#container_S {
+    background-color: white;
+    color: black;
+    width: 700px;
+    margin: auto;
+    font-size: 16px;
+    padding: 10px;
+    padding-top: 202px;
+    border: #5BA67D 2px groove;
 }
