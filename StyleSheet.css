@@ -1,20 +1,20 @@
 body {
-    background-color: #89C7A5;
+    background-color: #CA6435;
 }
 
 header {
     width: 100%;
-    background-color: #175935;
+    background-color: #CD9900;
     position: absolute;
     top: 0px;
     left: 0px;
     height: 130px;
-    border-bottom: #124529 2px solid;
+    border-bottom: #CD4000 2px solid;
 }
 
 nav {
     width: 100%;
-    background-color: #298050;
+    background-color: #FFD24F;
     position: absolute;
     top: 132px;
     left: 0px;
@@ -31,16 +31,17 @@ section {
 }
 
 #container_H {
-    color: white;
+    color: #FFFFFF;
     width: 700px;
     margin: auto;
     font-size: 80px;
     padding-top: 35px;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 #container_N {
-    color: white;
+    color: #249D70;
     width: 700px;
     margin: auto;
     font-size: 30px;
@@ -49,12 +50,26 @@ section {
 }
 
 #container_S {
-    background-color: white;
-    color: black;
+    background-color: #FFF9F6;
+    color: #12124c;
     width: 700px;
     margin: auto;
     font-size: 16px;
     padding: 10px;
     padding-top: 202px;
-    border: #5BA67D 2px groove;
+    border: #E96E36 2px groove;
+}
+
+.nav_button {
+    width: 175px;
+    margin: 56px;
+    text-align: center;
+}
+
+h1 {
+    color: #008A56;
+}
+
+h2 {
+    color: #53AC8B;
 }
